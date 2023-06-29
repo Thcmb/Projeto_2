@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Geologica', sans-serif;
+}
+
+body {
+    background-color: #ccc7c7;
+    background-image: url(imagens/vecteezy_notebook-icon-png-transparent_9590016_724.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: -48px;
+}
+
+header {
+    display: block;
+    margin: 80px 0px 30px 100px;
+    font-size: 20px;
+}
+.container {
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto ;
+}
+
+form input {
+    font-size: 12px;
+    background-color: #fff;
+    border: 1px solid ;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form button {
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: rgb(41, 39, 39);
+    border: 1px solid;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form button:hover {
+    background-color: rgb(19, 18, 18);
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+table td {
+    padding: 13px;
+    text-align: center;
+    font-size: 18px;
+}
+
