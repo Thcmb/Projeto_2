@@ -69,3 +69,6 @@ table td {
     font-size: 18px;
 }
 
+@media screen and (max-width: 768px) {
+}
+
